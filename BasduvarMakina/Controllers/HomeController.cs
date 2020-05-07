@@ -12,7 +12,6 @@ namespace BasduvarMakina.Controllers
         public ActionResult Index()
         {
             return View();
-
         }
     }
 }
