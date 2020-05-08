@@ -13,5 +13,30 @@ namespace BasduvarMakina.Controllers
         {
             return View();
         }
+
+        public ActionResult Slider()
+        {
+            return View();
+        }
+        public ActionResult Info()
+        {
+            return View();
+        }
+        public ActionResult About()
+        {
+            return View();
+        }
+        public ActionResult Projects()
+        {
+            return View();
+        }
+        public ActionResult Counter()
+        {
+            return View();
+        }
+        public ActionResult Blog()
+        {
+            return View();
+        }
     }
 }
