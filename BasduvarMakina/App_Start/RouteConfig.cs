@@ -32,9 +32,14 @@ namespace BasduvarMakina
          );
             routes.MapRoute(
              name: "Project",
-             url: "projeler",
-             defaults: new { controller = "Project", action = "Index" }
+             url: "admin",
+             defaults: new { controller = "Admin", action = "Index" }
          );
+            routes.MapRoute(
+            name: "Admin",
+            url: "projeler",
+            defaults: new { controller = "Project", action = "Index" }
+        );
 
             routes.MapRoute(
                 name: "Default",
