@@ -216,6 +216,10 @@
     <Content Include="Views\Home\Blog.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\Category.cshtml" />
+    <Content Include="Views\Blog\Populer.cshtml" />
+    <Content Include="Views\Blog\Tag.cshtml" />
+    <Content Include="Views\Blog\Detail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

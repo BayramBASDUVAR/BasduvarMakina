@@ -14,5 +14,21 @@ namespace BasduvarMakina.Controllers
             ViewBag.Title = "Başduvar | Blog";
             return View();
         }
+        public ActionResult Category()
+        {
+            return View();
+        }
+        public ActionResult Populer()
+        {
+            return View();
+        }
+        public ActionResult Tag()
+        {
+            return View();
+        }
+        public ActionResult Detail()
+        {
+            return View();
+        }
     }
 }
