@@ -11,6 +11,7 @@ namespace BasduvarMakina.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Title = "Başduvar | 2020";
             return View();
         }
         public ActionResult Slider()
