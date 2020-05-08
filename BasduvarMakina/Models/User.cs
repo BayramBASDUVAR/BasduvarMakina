@@ -7,7 +7,7 @@ using System.Web;
 
 namespace BasduvarMakina.Models
 {
-    [Table("User")]
+    [Table("Users")]
     public class User
     {
         [Key]
@@ -16,10 +16,11 @@ namespace BasduvarMakina.Models
         public string About { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public DateTime AddedDate { get; set; }
+        public Nullable<System.DateTime> AddedDate { get; set; }
         public string AddedBy { get; set; }
-        public DateTime ModifyDate { get; set; }
+        public Nullable<System.DateTime> ModifyDate { get; set; }
         public string ModifyBy { get; set; }
         public string Image { get; set; }
+        public string Role { get; set; }
     }
 }

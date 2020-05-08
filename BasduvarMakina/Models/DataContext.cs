@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 
@@ -10,6 +11,14 @@ namespace BasduvarMakina.Models
     {
         public DataContext():base("name=DataContext")
         {}
-        public DbSet<User> user { get; set; }
+
+        public virtual DbSet<User> user { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer<DataContext>(null);
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
