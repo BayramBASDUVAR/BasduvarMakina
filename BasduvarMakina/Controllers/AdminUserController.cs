@@ -19,5 +19,18 @@ namespace BasduvarMakina.Controllers
 
             return View(context.user.ToList());
         }
+
+        public ActionResult Delete(int? Id)
+        {
+            if (Id == null)
+            {
+                HttpNotFound();
+            }
+
+            User user = context.user.Find(Id);
+            context.user.Remove(user);
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
