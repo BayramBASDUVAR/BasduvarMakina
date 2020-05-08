@@ -30,6 +30,11 @@ namespace BasduvarMakina
              url: "iletisim",
              defaults: new { controller = "Contact", action = "Index" }
          );
+            routes.MapRoute(
+             name: "Project",
+             url: "projeler",
+             defaults: new { controller = "Project", action = "Index" }
+         );
 
             routes.MapRoute(
                 name: "Default",
