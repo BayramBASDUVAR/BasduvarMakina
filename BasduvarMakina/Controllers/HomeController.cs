@@ -13,7 +13,6 @@ namespace BasduvarMakina.Controllers
         {
             return View();
         }
-
         public ActionResult Slider()
         {
             return View();
