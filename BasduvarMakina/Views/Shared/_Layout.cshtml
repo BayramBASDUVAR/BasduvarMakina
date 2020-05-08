@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="main-logo">
-                            <a href="index.html"><img src="@Url.Content("~/Content/Site/images/logo/logo.png")" alt=""></a>
+                            <a href="@Url.Action("","")"><img src="@Url.Content("~/Content/Site/images/logo/logo.png")" alt=""></a>
                         </div>
                     </div>
 
@@ -61,16 +61,11 @@
                                 <ul class="navigation clearfix">
 
                                     <li class="current">
-                                        <a href="index.html">Anasayfa</a>
+                                        <a href="@Url.Action("","")">Anasayfa</a>
                                     </li>
 
-                                    <li class="dropdown">
-                                        <a href="#">Hakkımızda</a>
-                                        <ul>
-                                            <li><a href="about.html">Biz Kimiz?</a></li>
-                                            <li><a href="team.html">Takımımız</a></li>
-                                            <li><a href="error.html">404 Page</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="@Url.Action("Index","About")">Hakkımızda</a>
                                     </li>
 
                                     <li class="dropdown">
@@ -98,17 +93,12 @@
 
                                 <ul class="mobile-menu clearfix">
 
-                                    <li class="">
-                                        <a href="index.html">Anasayfa</a>
+                                    <li >
+                                        <a href="@Url.Action("","")">Anasayfa</a>
                                     </li>
 
-                                    <li class="dropdown">
-                                        <a href="#">Hakkımızda</a>
-                                        <ul>
-                                            <li><a href="about.html">Biz Kimiz?</a></li>
-                                            <li><a href="team.html">Takımımız</a></li>
-                                            <li><a href="error.html">404 Page</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="@Url.Action("Index","About")">Hakkımızda</a>
                                     </li>
 
                                     <li class="dropdown">
@@ -166,7 +156,7 @@
                                 <!--Footer Column-->
                                 <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                                     <div class="footer-widget about-widget">
-                                        <figure class="footer-logo"><a href="index.html"><img src="@Url.Content("~/Content/Site/images/logo/logo2.png")" alt=""></a></figure>
+                                        <figure class="footer-logo"><a href="@Url.Action("","")"><img src="@Url.Content("~/Content/Site/images/logo/logo2.png")" alt=""></a></figure>
 
                                         <div class="widget-content">
                                             <div class="text"><p>Narail is a global consulting firm with a twist. We bring big ideas and challenge the norm. We work with our clients, not at them.</p> </div>
