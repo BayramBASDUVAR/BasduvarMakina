@@ -3822,6 +3822,7 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\AdminUser\Index.cshtml" />
+    <Content Include="Views\AdminUser\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3832,6 +3833,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Site\images\clients\" />
+    <Folder Include="images\users\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
