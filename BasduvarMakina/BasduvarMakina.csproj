@@ -3754,6 +3754,9 @@
     <Content Include="Views\AdminUser\Create.cshtml" />
     <Content Include="Views\AdminUser\Details.cshtml" />
     <Content Include="Views\AdminUser\Edit.cshtml" />
+    <Content Include="Views\Shared\_LeftsideBar.cshtml" />
+    <Content Include="Views\Shared\_RightsideBar.cshtml" />
+    <Content Include="Views\Shared\_TopBar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
